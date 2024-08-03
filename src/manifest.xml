@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS IS THE METADATA BOT FILE -->
+<!-- Do NOT delete this file or it will crash -->
+<!-- Changes to this file may cause incorrect behavior -->
+<!-- You will be responsible for this when changing any content in the file. -->
+
+<metadata>
+  <bot>
+    <version>1.2.0</version>
+    <autofix>1.5.1</autofix>
+    <codename>sora</codename>
+  </bot>
+</metadata>
+
