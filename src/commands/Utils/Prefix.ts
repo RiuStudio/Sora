@@ -7,7 +7,7 @@ export default class implements Command {
   public name = ["prefix"];
   public description = "Change the prefix for the bot";
   public category = "Utils";
-  public accessableby = [Accessableby.Manager];
+  public accessableby = [Accessableby.Premium];
   public usage = "<input>";
   public aliases = ["setprefix"];
   public lavalink = false;
