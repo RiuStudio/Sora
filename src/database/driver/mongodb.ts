@@ -1,6 +1,6 @@
 import { Manager } from "../../manager.js";
 import { Database } from "../../@types/Config.js";
-import { MongoDriver } from "sora.quick.db/MongoDriver";
+import { MongoDriver } from "dreamvast.quick.db/MongoDriver";
 import { TableSetup } from "../table.js";
 import { keyChecker } from "../keyChecker.js";
 
@@ -15,7 +15,7 @@ export class MongoConnectDriver {
 
   connect() {
     const sampleConfig = {
-      uri: "mongodb://127.0.0.1:",
+      uri: "mongodb:Sora:soraDB@",
     };
 
     new keyChecker(this.client, this.dbConfig.config, sampleConfig, "mongodb");
