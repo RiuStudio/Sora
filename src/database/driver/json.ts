@@ -15,7 +15,7 @@ export class JSONConnectDriver {
 
   connect() {
     const sampleConfig = {
-      path: "./database.json",
+      path: "./Database.json",
     };
 
     new keyChecker(this.client, this.dbConfig.config, sampleConfig, "json");
