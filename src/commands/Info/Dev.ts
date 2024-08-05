@@ -6,7 +6,7 @@ import { CommandHandler } from "../../structures/CommandHandler.js";
 
 export default class implements Command {
   public name = ["developer"];
-  public description = "";
+  public description = "To see this developer bot.";
   public category = "Info";
   public accessableby = [Accessableby.Member];
   public usage = "";
